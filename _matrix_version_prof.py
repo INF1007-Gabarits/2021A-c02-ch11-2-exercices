@@ -15,7 +15,7 @@ class Matrix:
 
 	:param height: La hauteur (nb de rangées)
 	:param width: La largeur (nb de colonnes)
-	:param data: Si une liste, alors les données elles-mêmes (affectées, pas copiées). Si un nombre, alors la valeur de remplissage
+	:param data: Si une liste, alors les données elles-mêmes (`data` affectée, pas copiée). Si un nombre, alors la valeur de remplissage
 	"""
 
 	def __init__(self, height, width, data = 0.0):
@@ -88,7 +88,7 @@ class Matrix:
 	# TODO: Représentation officielle
 	def __repr__(self):
 		# TODO: une string qui représente une expression pour construire l'objet.
-		return f"Matrix({self.height}, {self.width}, {self.data.__repr__()})"
+		return f"Matrix({self.height}, {self.width}, {repr(self.data)})"
 
 	# TODO: String formatée
 	def __format__(self, format_spec):
@@ -136,7 +136,7 @@ class Matrix:
 		if isinstance(other, Matrix):
 			# TODO: Multiplication matricielle.
 
-			# TODO: vérifier compatibilité.
+			# TODO: Vérifier compatibilité.
 			if self.width != other.height:
 				raise ValueError(Matrix)
 

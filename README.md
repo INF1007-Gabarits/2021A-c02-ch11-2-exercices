@@ -1,5 +1,3 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
-
 # Opérations matricielles (chapitre 11.2)
 
 <!-- Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md) -->

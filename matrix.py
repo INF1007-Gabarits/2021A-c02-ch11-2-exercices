@@ -15,7 +15,7 @@ class Matrix:
 
 	:param height: La hauteur (nb de rangées)
 	:param width: La largeur (nb de colonnes)
-	:param data: Si une liste, alors les données elles-mêmes (affectées, pas copiées). Si un nombre, alors la valeur de remplissage
+	:param data: Si une liste, alors les données elles-mêmes (`data` affectée, pas copiée). Si un nombre, alors la valeur de remplissage
 	"""
 
 	def __init__(self, height, width, data = 0.0):
